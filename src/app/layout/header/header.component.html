@@ -1,0 +1,19 @@
+<header class="py-4">
+    <div class="container-fluid d-flex justify-content-between">
+        <div class="left">
+            <h5>Angular</h5>
+        </div>
+        <div class="right">
+            <div class="dropdown dropleft">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Menu
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a  [hidden]="hideElement" class="dropdown-item" href="#">Home</a>
+                  <a [hidden]="hideElement"  class="dropdown-item" href="#">Back</a>
+                  <a class="dropdown-item" href="#">Logut</a>
+                </div>
+              </div>
+        </div>    
+    </div>
+</header>

@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background: rgb(246, 246, 246);
+    border-radius: 3px;
+
+    &:hover{
+        background: #007bff; 
+        border-color: #007bff !important;
+    }
+}
+
+.hv-100{
+    height: calc(100vh - 160px);
+}
